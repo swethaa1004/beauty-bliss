@@ -162,7 +162,7 @@ header nav ul li a:hover {
 
 .about-us .cta-btn {
     background-color: #F3D0D7; 
-    color: #F6F5F2;
+     color: black;
     padding: 12px 25px;
     font-size: 1.2rem;
     border-radius: 5px;
@@ -174,7 +174,8 @@ header nav ul li a:hover {
 
 .about-us .cta-btn:hover {
     background-color: #F6F5F2; 
-    color: #F3D0D7;
+     color: black;
+    border-radius:5px;
 }
 
 
@@ -312,8 +313,8 @@ header nav ul li a:hover {
 
 /* Submit Button */
 .cta-btn {
-    background-color: #F3D0D7; /* Button background */
-    color: #F6F5F2; /* Button text color */
+    background-color: #F3D0D7; 
+     color: black;
     padding: 15px 30px;
     font-size: 1.2rem;
     text-transform: uppercase;
@@ -325,7 +326,7 @@ header nav ul li a:hover {
 
 .cta-btn:hover {
     background-color: #F6F5F2; /* Button hover background */
-    color: #F3D0D7; /* Button hover text color */
+     color: black;
 }
 
 /* Responsive Form */
