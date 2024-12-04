@@ -1,0 +1,355 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: "#FFFEFEF";
+    color: #333;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/* Header Styles */
+header {
+    background-color: #F3D0D7;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo h1 {
+    color: #F6F5F2;
+    font-size: 2.5rem;
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+header nav ul li {
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    color: #F6F5F2;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+header nav ul li a:hover {
+    color:black;
+}
+
+/* Hero Section */
+.hero {
+    background-image: url("banner.jpeg");
+    background-size: cover;
+    background-position: center;
+    padding: 80px 20px;
+    color: #F6F5F2;
+    text-align: center;
+}
+
+.hero h2 {
+    font-size: 3rem;
+}
+
+.hero .cta-btn {
+    background-color: #F3D0D7;
+    padding: 15px 30px;
+    color: black;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    border: none;
+    cursor: pointer;
+    border-radius: 6px;
+    text-decoration: none;
+}
+
+.hero .cta-btn:hover {
+    background-color: #F6F5F2;
+    color: #F3D0D7;
+}
+
+/* Product Section */
+.products {
+    background-color: #F6F5F2;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.products h2 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+}
+
+.product-container {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.product-card {
+    background-color: #FFF;
+    border-radius: 10px;
+    padding: 20px;
+    width: 30%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.product-card img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.product-card h3 {
+    font-size: 1.5rem;
+    margin-top: 10px;
+}
+
+.product-card p {
+    color:black;
+    font-size: 1.2rem;
+    margin: 10px 0;
+}
+
+.product-card a {
+    background-color: #F3D0D7;
+    color: #F6F5F2;
+    padding: 10px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.product-card a:hover {
+    background-color: #F6F5F2;
+    color: #F3D0D7;
+}
+
+
+.about-us {
+    background-color: #F6F5F2; 
+    color: #333333; 
+    padding: 60px 20px;
+    text-align: center;
+}
+
+
+.about-us h2 {
+    font-size: 2.5rem;
+    color: #F3D0D7;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+
+.about-us p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    margin-bottom: 20px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.about-us .cta-btn {
+    background-color: #F3D0D7; 
+    color: #F6F5F2;
+    padding: 12px 25px;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: inline-block;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.about-us .cta-btn:hover {
+    background-color: #F6F5F2; 
+    color: #F3D0D7;
+}
+
+
+/* Promotions Section */
+.promotion {
+    background-color: #F3D0D7;
+    padding: 60px 20px;
+}
+
+.promotion h2 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.promotion-container {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.promotion-card {
+    background-color: #F6F5F2;
+    padding: 20px;
+    width: 45%;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.promotion-card a {
+    background-color: #F3D0D7;
+    color: #F6F5F2;
+    padding: 10px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.promotion-card a:hover {
+    background-color: #F6F5F2;
+    color: #F3D0D7;
+}
+
+/* Reviews Section */
+.reviews {
+    background-color: #F6F5F2;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.review-card {
+    background-color: #FFF;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 30px;
+    width: 80%;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.review-card h4 {
+    color: #F3D0D7;
+    font-size: 1.2rem;
+    margin-top: 10px;
+}
+
+/* Contact Us Section */
+.contact-us {
+    background-color: #FFEFEF; /* Soft pink background */
+    color: #333333; /* Dark text for readability */
+    padding: 60px 20px;
+    text-align: center;
+}
+
+/* Title */
+.contact-us h2 {
+    font-size: 2.5rem;
+    color: #F3D0D7; /* Accent color */
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+/* Subtitle */
+.contact-us p {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    margin-bottom: 40px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Contact Form */
+.contact-form {
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #F6F5F2; /* Light background for the form */
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Form Group */
+.form-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.form-group label {
+    display: block;
+    font-size: 1rem;
+    color: #333333;
+    margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 12px;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.form-group textarea {
+    height: 150px;
+    resize: vertical;
+}
+
+/* Submit Button */
+.cta-btn {
+    background-color: #F3D0D7; /* Button background */
+    color: #F6F5F2; /* Button text color */
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.cta-btn:hover {
+    background-color: #F6F5F2; /* Button hover background */
+    color: #F3D0D7; /* Button hover text color */
+}
+
+/* Responsive Form */
+@media (max-width: 768px) {
+    .contact-form {
+        padding: 20px;
+        margin: 0 10px;
+    }
+}
+
+
+/* Footer Section */
+footer {
+    background-color: #F6F5F2;
+    padding: 20px;
+    text-align: center;
+}
+
+footer .social-media a {
+    color: #F3D0D7;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+footer .social-media a:hover {
+    color: #F3D0D7;
+}
